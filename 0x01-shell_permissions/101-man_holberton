@@ -1,0 +1,15 @@
+.TH man 8 "10 December 1945" "0.32" "nuseradd man page"
+.SH NAME
+nuseradd eniac - the first electronic general-purpose digital computer.
+.SH SYNOPSIS
+[eniac]
+.SH DESCRIPTION
+eniac was Turing-complete, and able to solve "a large class of numerical problems" through reprogramming.
+.SH OPTIONS
+eniac does not take any options.
+.SH SEE ALSO
+ENIAC could be programmed to perform complex sequences of operations(2), including loop(2), branches(2), and subroutines(2).
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+University of pennsylvania.
