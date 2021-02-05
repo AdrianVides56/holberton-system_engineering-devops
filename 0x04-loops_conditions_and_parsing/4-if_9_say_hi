@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Displays 'Holberton School' 10 times buth 9th iterarion displays also 'Hi'
+idx=0
+while [ $idx -lt 10 ]; do
+    echo "Holberton School"
+    if [ $idx -eq 8 ]; then
+	echo "Hi"
+    fi
+    let "idx++"
+done
