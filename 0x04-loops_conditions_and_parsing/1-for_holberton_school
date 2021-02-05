@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Displays 'Holberton School' 10 times
+msg="Holberton School"
+for _ in {0..9}; do
+    echo "$msg"
+done
