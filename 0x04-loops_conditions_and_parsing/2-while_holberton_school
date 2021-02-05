@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Displays 'Holberton School' 10 times
+idx=0
+while [ $idx -lt 10 ]; do
+    echo "Holberton School"
+    let "idx += 1"
+done
