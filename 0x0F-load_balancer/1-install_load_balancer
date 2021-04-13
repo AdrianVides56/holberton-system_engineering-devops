@@ -10,6 +10,6 @@ frontend trytercreations
 
 backend my_servers
 	balance roundrobin
-	server 2296-web-01 35.231.66.1 check
-	server 2296-web-02 54.221.2.88 check" >> /etc/haproxy/haproxy.cfg
+	server 2296-web-01 35.231.66.1:80 check
+	server 2296-web-02 54.221.2.88:80 check" >> /etc/haproxy/haproxy.cfg
 sudo service haproxy restart
