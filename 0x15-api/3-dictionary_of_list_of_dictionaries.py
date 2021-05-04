@@ -25,6 +25,5 @@ if __name__ == '__main__':
                                        'task': task['title'],
                                        'completed': task['completed']})
 
-
     with open('todo_all_employees.json', 'w') as json_f:
         json_f.write(json.dumps(user_dict))
