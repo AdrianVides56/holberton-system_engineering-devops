@@ -1,5 +1,5 @@
 # Handling a big amounts of requests
-
+# Puppet commands to fix the issue and restart the service
 exec { 'problem solution':
      command => '/bin/sed -i \'s/ULIMIT="-n 15"/ULIMIT="-n 4096"/\' /etc/default/nginx',
 }
