@@ -7,5 +7,8 @@ command => '/bin/sed -i \'s/ULIMIT=/# ULIMIT=/\' /etc/default/nginx',
 
 exec { 'restart nginx':
 command => 'service nginx restart',
-path    => [ '/usr/bin', 'usr/sbin' ],
+path    => [ '/usr/bin', '/usr/sbin' ],
+}~>
+service { 'nginx':
+ensure    => running,
 }
