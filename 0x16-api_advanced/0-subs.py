@@ -14,7 +14,7 @@ def number_of_subscribers(subreddit):
     agent = {'User-Agent': 'termi'}
     try:
         req = requests.get(url, headers=agent, allow_redirects=False).json()
-        a = req.get('data').get('subscribers')
+        num = req.get('data').get('subscribers')
     except:
         return 0
-    return a
+    return num
